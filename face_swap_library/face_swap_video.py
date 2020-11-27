@@ -148,7 +148,7 @@ while cap.isOpened():
         # Flip the image horizontally for a later selfie-view display, and convert
         # the BGR image to RGB.
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        image = cv2.rotate(image, cv2.cv2.ROTATE_90_COUNTERCLOCKWISE)
+        # image = cv2.rotate(image, cv2.cv2.ROTATE_90_COUNTERCLOCKWISE)
         # To improve performance, optionally mark the image as not writeable to
         # pass by reference.
         image.flags.writeable = False
