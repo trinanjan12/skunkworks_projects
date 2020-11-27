@@ -14,7 +14,7 @@ Clone the repo:
 
 Install the requirements:
  
-`cd face_landmarks/face_swap_library`
+`cd face_swap_library`
 `source setup_env.sh`
 
 Running the demo for faceswap between 2 images:
@@ -44,4 +44,4 @@ This code heavily borrows from the following sources
 
 ## Example Output:
 
-![Teaser_gif](./images/output/output.jpg)
+![Teaser_gif](./face_swap_library/images/output/output.jpg)
